@@ -8,7 +8,7 @@ public class SynchronizedTest {
         Thread t1=new Thread(()->{
            for (int i=0;i<10000;i++){
                synchronized (N){
-                   num+=1;
+                   num++;
                }
            }
         });
